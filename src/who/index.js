@@ -13,7 +13,7 @@ const TableAllDays = props => {
   const { data } = props;
   const fData = formatWhoData(data);
 
-  return <table className="table table-striped table-responsive">
+  return <table className="table table-bordered table-responsive">
     <thead>
       <tr>
         <th>Country</th>
@@ -39,7 +39,7 @@ export default props => {
   
   return <>
     <h1>WHO Data</h1>
-    <p>WHO data by day</p>
+    <p>WHO data displayed dynamically</p>
     <WrapMapWithDayNav data={rData} />
     
     <TableAllDays data={rData}/>
