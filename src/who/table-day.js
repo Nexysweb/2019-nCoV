@@ -1,7 +1,7 @@
 
 import React from 'react';
 import {formatDate, addDays, initDate} from './utils';
-import GeoMap from './geo-map';
+import { GeoMapWTooltip } from './geo-map';
 
 const Table = props => {
   const { data } = props;
@@ -57,6 +57,7 @@ export const WrapTableWithDayNav = props => {
 export const WrapMapWithDayNav = props => {
   const { data } = props;
   const [ dayIndex, setDayIndex ] = React.useState(data.length);
+  
 
   // find the correct line in the array based on the `dayIndex` selected
   // if none was found, the table is not displayed
@@ -64,6 +65,7 @@ export const WrapMapWithDayNav = props => {
 
   return <>
     <Nav data={data} dayIndex={dayIndex} onClick={setDayIndex}/>
-    {lineData && <GeoMap data={lineData.data}/>}
+    {lineData && <GeoMapWTooltip data={lineData.data}/>}
   </>
 }
+

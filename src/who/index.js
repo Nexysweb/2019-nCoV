@@ -1,10 +1,13 @@
 import React from 'react';
 
+
 import WHOData from '../data/who';
 import Countries from '../data/country';
 
 import {formatDate, formatWhoData, addDays, initDate } from './utils';
 import { WrapMapWithDayNav } from './table-day'
+
+import '../index.css';
 
 const TableAllDays = props => {
   const { data } = props;
@@ -33,10 +36,12 @@ const TableAllDays = props => {
 const rData = WHOData.reverse();
 
 export default props => {
+  
   return <>
     <h1>WHO Data</h1>
     <p>WHO data by day</p>
-    <WrapMapWithDayNav data={rData}/>
+    <WrapMapWithDayNav data={rData} />
+    
     <TableAllDays data={rData}/>
     {/*<Nav data={WHOData}/>
 <GeoMap data={d}/>*/}
