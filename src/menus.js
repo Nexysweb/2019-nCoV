@@ -1,9 +1,13 @@
 import Main from './main/index';
+import Who from './who';
 import Resources from './resources';
 
 const menus = [
-  {name: 'Main', 'link': '/', Component: Main},
+  {name: 'WHO Data', 'link': '/who', Component: Who},
+  {name: 'Prediction', 'link': '/prediction', Component: Main},
   {name: 'Resources', 'link': '/resources', Component: Resources},
 ];
+
+export const defaultPage = Who;
 
 export default menus;

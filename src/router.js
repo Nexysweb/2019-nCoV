@@ -10,6 +10,7 @@ import * as History from 'history';
 
 import Layout from './layout';
 import Menus from './menus';
+import { defaultPage } from './menus';
 
 const history = History.createBrowserHistory({
   basename: process.env.PUBLIC_URL || '',
@@ -21,6 +22,7 @@ function MyRouter(props) {
   return (<Layout>
     <Switch>
       {Menus.map((m, i) => <Route exact key={i} path={m.link} component={m.Component}/>)}
+      <Route exact path="/" component={defaultPage} />
       <Route path="/" component={NotFound} />
     </Switch>
   </Layout>);
