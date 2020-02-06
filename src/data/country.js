@@ -20,5 +20,8 @@ export default {
   IN: 'India',
   KH: 'Cambodia',
   SE: 'Sweden',
-  BE: 'Belgium'
+  BE: 'Belgium',
+  RU: 'Russia',
+  SP: 'Spain',
+  UK: 'United Kingdom'
 }
