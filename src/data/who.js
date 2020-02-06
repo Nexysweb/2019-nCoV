@@ -166,7 +166,7 @@ export default [
   {iso2: 'FI', n: 1},
   {iso2: 'DE', n: 7},
   {iso2: 'IT', n: 2},
-  {iso2: 'UK', n: 2},
+  {iso2: 'GB', n: 2},
   {iso2: 'AE', n: 4}
 ]},
   {dayIndex: 13, data: [
@@ -190,9 +190,9 @@ export default [
   {iso2: 'DE', n: 8},
   {iso2: 'IT', n: 2},
   {iso2: 'RU', n: 2},
-  {iso2: 'SP', n: 1},
+  {iso2: 'ES', n: 1},
   {iso2: 'SE', n: 1},
-  {iso2: 'UK', n: 2},
+  {iso2: 'GB', n: 2},
   {iso2: 'AE', n: 5}
 ]},
    {dayIndex: 14, data: [
@@ -216,9 +216,9 @@ export default [
   {iso2: 'DE', n: 10},
   {iso2: 'IT', n: 2},
   {iso2: 'RU', n: 2},
-  {iso2: 'SP', n: 1},
+  {iso2: 'ES', n: 1},
   {iso2: 'SE', n: 1},
-  {iso2: 'UK', n: 2},
+  {iso2: 'GB', n: 2},
   {iso2: 'AE', n: 5}
 ]},
   {dayIndex: 15, data: [
@@ -242,9 +242,9 @@ export default [
   {iso2: 'DE', n: 12},
   {iso2: 'IT', n: 2},
   {iso2: 'RU', n: 2},
-  {iso2: 'SP', n: 1},
+  {iso2: 'ES', n: 1},
   {iso2: 'SE', n: 1},
-  {iso2: 'UK', n: 2},
+  {iso2: 'GB', n: 2},
   {iso2: 'AE', n: 5}
 ]},
     {dayIndex: 16, data: [
@@ -268,9 +268,9 @@ export default [
   {iso2: 'DE', n: 12},
   {iso2: 'IT', n: 2},
   {iso2: 'RU', n: 2},
-  {iso2: 'SP', n: 1},
+  {iso2: 'ES', n: 1},
   {iso2: 'SE', n: 1},
-  {iso2: 'UK', n: 2},
+  {iso2: 'GB', n: 2},
   {iso2: 'BE', n: 1},
   {iso2: 'AE', n: 5}
 ]},

@@ -22,6 +22,6 @@ export default {
   SE: 'Sweden',
   BE: 'Belgium',
   RU: 'Russia',
-  SP: 'Spain',
-  UK: 'United Kingdom'
+  ES: 'Spain',
+  GB: 'United Kingdom'
 }
