@@ -18,5 +18,7 @@ export default {
   AE: 'United Arab Emirates',
   CA: 'Canada',
   IN: 'India',
-  KH: 'Cambodia'
+  KH: 'Cambodia',
+  SE: 'Sweden',
+  BE: 'Belgium'
 }
