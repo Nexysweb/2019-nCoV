@@ -328,7 +328,7 @@ export default [
   {iso2: 'SE', n: 1},
   {iso2: 'AE', n: 5}
   ]},
-  {dayIndex: 18, data: [
+  {dayIndex: 19, data: [
     {iso2: 'CN', n: 34598},
     {iso2: 'SG', n: 33},
     {iso2: 'JP', n: 89}, // note it is the sum of reported cases in JP and *Cases identified on a cruise ship currently in Japanese territorial waters
