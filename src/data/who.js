@@ -328,6 +328,33 @@ export default [
   {iso2: 'SE', n: 1},
   {iso2: 'AE', n: 5}
   ]},
+  {dayIndex: 18, data: [
+    {iso2: 'CN', n: 34598},
+    {iso2: 'SG', n: 33},
+    {iso2: 'JP', n: 89}, // note it is the sum of reported cases in JP and *Cases identified on a cruise ship currently in Japanese territorial waters
+    {iso2: 'KR', n: 24},
+    {iso2: 'VN', n: 13},
+    {iso2: 'AU', n: 15},
+    {iso2: 'MY', n: 15},
+    {iso2: 'KH', n: 1},
+    {iso2: 'PH', n: 3},
+    {iso2: 'TH', n: 32},
+    {iso2: 'NP', n: 3},
+    {iso2: 'LK', n: 1},
+    {iso2: 'IN', n: 3},
+    {iso2: 'US', n: 12},
+    {iso2: 'CA', n: 7},
+    {iso2: 'DE', n: 14},
+    {iso2: 'FR', n: 6},
+    {iso2: 'IT', n: 3},
+    {iso2: 'RU', n: 2},
+    {iso2: 'GB', n: 3},
+    {iso2: 'BE', n: 1},
+    {iso2: 'FI', n: 1},
+    {iso2: 'ES', n: 1},
+    {iso2: 'SE', n: 1},
+    {iso2: 'AE', n: 7}
+    ]},
 ]
 
 
