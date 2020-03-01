@@ -879,7 +879,7 @@ export default [
     {iso2: 'OM', n: 4},
     {iso2: 'AF', n: 1},
     {iso2: 'IQ', n: 5},
-    {iso2: 'AL', n: 1},
+    {iso2: 'DZ', n: 1},
   ]},
   {dayIndex: 38, data: [
     {iso2: 'CN', n: 78630, nDeaths: 1017},
@@ -927,7 +927,7 @@ export default [
     {iso2: 'OM', n: 4},
     {iso2: 'AF', n: 1},
     {iso2: 'IQ', n: 5},
-    {iso2: 'AL', n: 1},
+    {iso2: 'DZ', n: 1},
   ]},
   {dayIndex: 39, data: [
     {iso2: 'CN', n: 78961, nDeaths: 1017},
@@ -979,7 +979,7 @@ export default [
     {iso2: 'OM', n: 6},
     {iso2: 'AF', n: 1},
     {iso2: 'IQ', n: 7},
-    {iso2: 'AL', n: 1},
+    {iso2: 'DZ', n: 1},
     {iso2: 'NG', n: 1},
   ]},
   {dayIndex: 40, data: [
@@ -1034,7 +1034,7 @@ export default [
     {iso2: 'OM', n: 6},
     {iso2: 'AF', n: 1},
     {iso2: 'IQ', n: 8},
-    {iso2: 'AL', n: 1},
+    {iso2: 'DZ', n: 1},
     {iso2: 'NG', n: 1},
   ]},
   
